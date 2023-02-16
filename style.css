@@ -1,6 +1,7 @@
 html{
     margin: 0;
     padding: 0;
+    font-size: 24px;
 }
 
 body{
@@ -58,11 +59,11 @@ aside{
 
 main {
     grid-column: 5 / 13;
+    background-color: rgb(247, 252, 253);
 }
 
 .first_section{
     height: 32%;
-    background-color: rgb(247, 252, 253);
     position: relative;
 }
 
@@ -78,7 +79,59 @@ main {
     margin-right: 12em;
 }
 
-.form_container{
-    height: 32%;
-    background-color: wheat;
+.middle_section{
+    height: 36%;
 }
+
+.form_container{
+    background-color: #fff;
+    box-shadow: 0px 2px 10px 1px rgb(219, 219, 219);
+    height: 96%;
+}
+
+
+.form_title{
+    padding-top: 1em;
+    margin-left: 4em;
+    margin-right: 12em;
+}
+
+form{
+    margin-top: 1em;
+    margin-left: 4rem;
+    margin-right: 12rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 29em;
+    
+}   
+
+label, input{
+    display: block;
+    width: 300px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+label{
+    font-size: 14px;
+    margin-right: 1em;
+}
+
+input{
+    appearance: none;
+    margin-bottom: 1em;
+    height: 2.5em;
+    background-color: #fff;
+    border-style: solid;
+    border-radius: 0.5em;
+    border-color: rgb(211, 211, 211);
+}
+
+.bottom_main{
+    background-color:  rgb(247, 252, 253);
+    height: 32%;
+}
+
