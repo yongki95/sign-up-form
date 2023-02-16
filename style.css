@@ -61,7 +61,7 @@ main {
 }
 
 .first_section{
-    height: 40%;
+    height: 32%;
     background-color: rgb(247, 252, 253);
     position: relative;
 }
@@ -76,4 +76,9 @@ main {
     margin: 1em;
     margin-left: 4em;
     margin-right: 12em;
+}
+
+.form_container{
+    height: 32%;
+    background-color: wheat;
 }
