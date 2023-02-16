@@ -4,16 +4,21 @@ html{
 }
 
 body{
-    margin: 0;
+    margin: 0 auto;
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+}
+
+p{
+    margin: 0;
 }
 
 aside{
     grid-column: 1 / 5 ;
     background:url(./img/clarisse-meyer-FnFsXj_vz0g-unsplash.jpg);
     background-size: cover;
+    background-position-y: bottom;
     position: relative;
 }
 
@@ -48,16 +53,27 @@ aside{
     bottom: 2%;
     width: 100%;
     text-align: center;
-    color: aliceblue;
+    color: #fff;
 }
 
 main {
     grid-column: 5 / 13;
 }
 
-
-.frist_section{
-    height: 35%;
-
+.first_section{
+    height: 40%;
+    background-color: rgb(247, 252, 253);
+    position: relative;
 }
 
+.top_main{
+    position: absolute;
+    bottom: 8%;
+}
+
+.top_main p{
+    font-size: 24px;
+    margin: 1em;
+    margin-left: 4em;
+    margin-right: 12em;
+}
