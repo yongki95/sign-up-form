@@ -1,0 +1,63 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+aside{
+    grid-column: 1 / 5 ;
+    background:url(./img/clarisse-meyer-FnFsXj_vz0g-unsplash.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.banner{
+    display: flex;
+    background-color: rgb(19, 18, 18);
+    opacity: 80%;
+    position: relative;
+    margin-top: 140px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.banner img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 6em;
+}
+
+.banner_phrase{
+    color: aliceblue;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 80px;
+    
+}
+
+.author{
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+}
+
+main {
+    grid-column: 5 / 13;
+}
+
+
+.frist_section{
+    height: 35%;
+
+}
+
