@@ -1,86 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
-</head>
-<body>
-    <aside>
-        <div class="banner">
-            <img src="./img/odin-lined.png">
-            <p class="banner_phrase">ODIN</p>
-            
-        </div>
-        <div class="author">
-            <p>
-                Photo by <u>Clarisee Meyer</u> on <u>Unsplash</u>
-            </p>
-        </div>
-    </aside>
-    <main>
-        <section class="first_section">
-            <div class="top_main">
-                <p>
-                    This is not a real online service! You know you need something
-                    <br>like this in your life to help you realize your deepest dreams.
-                    <br>Sign up <strong>now</strong> to get started.
-                </p>
-    
-                <p>You <strong>know</strong> you want to.</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <aside>
+            <div class="banner">
+                <img src="./img/odin-lined.png">
+                <p class="banner_phrase">ODIN</p>
+                
             </div>
-            
-        </section>
-
-        <section class="middle_section">
-            <div class="form_container">
-                <p class="form_title">Let's do this!</p>
-                <form action="*" method="post" class="main_form" id="main_form">
-                    <p>
-                        <label for="firstname">FIRST NAME</label>
-                        <input type="text" name="first_name" id="firstname" required placeholder="ex: John">
-                    </p>
-    
-                    <p>
-                        <label for="lastname">LAST NAME</label>
-                        <input type="text" name="last_name" id="lastname" required placeholder="ex: Kim">
-                    </p>
-                    <p>
-                        <label for="mail">EMAIL</label>
-                        <input type="email" name="mail" id="mail" required placeholder="kim@blah.com">
-                    </p>
-                    
-                    <p>
-                        <label for="">PHONE NUMBER</label>
-                        <input type="tel" name="phone" id="phone" required>
-                    </p>
-                    
-                    <p>
-                        <label for="pwd">PASSWORD</label>
-                        <input type="password" name="password" id="pwd" required minlength="4" maxlength="30"> 
-                    </p>
-    
-                    <p>
-                        <label for="pwd">CONFIRM PASSWORD</label>
-                        <input type="password" name="password" id="pwd" required minlength="4" maxlength="30">
-                    </p>
-                </form>
-            </div>
-            
-        </section>
-
-        <section class="last_section">
-            <div class="bottom_main">
-                <form>
-                    <button type="submit" form="main_form">Create Account</button>
-                </form>
+            <div class="author">
                 <p>
-                    Already have an account? <a href="*" id="log_in">Log in</a>
+                    Photo by <u>Clarisee Meyer</u> on <u>Unsplash</u>
                 </p>
             </div>
-        </section>
-    </main>
-</body>
+        </aside>
+        <main>
+            <section class="first_section">
+                <div class="top_main">
+                    <p>
+                        This is not a real online service! You know you need something
+                        <br>like this in your life to help you realize your deepest dreams.
+                        <br>Sign up <strong>now</strong> to get started.
+                    </p>
+        
+                    <p>You <strong>know</strong> you want to.</p>
+                </div>
+                
+            </section>
+
+            <section class="middle_section">
+                <div class="form_container">
+                    <p class="form_title">Let's do this!</p>
+                    <form action="*" method="post" class="main_form" id="main_form">
+                        <p>
+                            <label for="firstname">FIRST NAME</label>
+                            <input type="text" name="first_name" id="firstname" required placeholder="ex: John">
+                        </p>
+        
+                        <p>
+                            <label for="lastname">LAST NAME</label>
+                            <input type="text" name="last_name" id="lastname" required placeholder="ex: Kim">
+                        </p>
+                        <p>
+                            <label for="mail">EMAIL</label>
+                            <input type="email" name="mail" id="mail" required placeholder="kim@blah.com">
+                        </p>
+                        
+                        <p>
+                            <label for="">PHONE NUMBER</label>
+                            <input type="tel" name="phone" id="phone">
+                        </p>
+                        
+                        <p>
+                            <label for="pwd">PASSWORD</label>
+                            <input type="password" name="password" id="pwd" required minlength="4" maxlength="30">
+                            <p id="message"></p> 
+                        </p>
+        
+                        <p>
+                            <label for="pwd">CONFIRM PASSWORD</label>
+                            <input type="password" name="password" id="pwd" required minlength="4" maxlength="30">
+                        </p>
+                    </form>
+                </div>
+                
+            </section>
+
+            <section class="last_section">
+                <div class="bottom_main">
+                    <form>
+                        <button type="submit" form="main_form">Create Account</button>
+                    </form>
+                    <p>
+                        Already have an account? <a href="*" id="log_in">Log in</a>
+                    </p>
+                </div>
+            </section>
+        </main>
+    </body>
+
+    
+
+
 </html>
