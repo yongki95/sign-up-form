@@ -37,34 +37,34 @@
         <section class="middle_section">
             <div class="form_container">
                 <p class="form_title">Let's do this!</p>
-                <form action="*" method="post" class="main_form">
+                <form action="*" method="post" class="main_form" id="main_form">
                     <p>
                         <label for="firstname">FIRST NAME</label>
-                        <input type="text" name="first_name" id="firstname">
+                        <input type="text" name="first_name" id="firstname" required placeholder="ex: John">
                     </p>
     
                     <p>
                         <label for="lastname">LAST NAME</label>
-                        <input type="text" name="first_name" id="lastname">
+                        <input type="text" name="last_name" id="lastname" required placeholder="ex: Kim">
                     </p>
                     <p>
                         <label for="mail">EMAIL</label>
-                        <input type="email" name="mail" id="mail">
+                        <input type="email" name="mail" id="mail" required placeholder="kim@blah.com">
                     </p>
                     
                     <p>
                         <label for="">PHONE NUMBER</label>
-                        <input type="tel" name="phone" id="phone">
+                        <input type="tel" name="phone" id="phone" required>
                     </p>
                     
                     <p>
                         <label for="pwd">PASSWORD</label>
-                        <input type="password" name="password" id="pwd"> 
+                        <input type="password" name="password" id="pwd" required minlength="4" maxlength="30"> 
                     </p>
     
                     <p>
                         <label for="pwd">CONFIRM PASSWORD</label>
-                        <input type="password" name="password" id="pwd">
+                        <input type="password" name="password" id="pwd" required minlength="4" maxlength="30">
                     </p>
                 </form>
             </div>
@@ -74,7 +74,7 @@
         <section class="last_section">
             <div class="bottom_main">
                 <form>
-                    <button type="submit">Create Account</button>
+                    <button type="submit" form="main_form">Create Account</button>
                 </form>
                 <p>
                     Already have an account? <a href="*" id="log_in">Log in</a>
