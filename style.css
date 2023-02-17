@@ -132,6 +132,12 @@ input{
     border-color: rgb(211, 211, 211);
 }
 
+
+
+input:focus{
+    outline: none;
+}
+
 input:invalid{
     border-color: lightcoral;
 }
@@ -139,6 +145,7 @@ input:invalid{
 input:valid{
     border-color: lightseagreen;
 }
+
 
 .bottom_main{
     background-color:  rgb(247, 252, 253);
