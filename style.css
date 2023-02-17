@@ -9,6 +9,7 @@ body{
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    font-family: 'Roboto', sans-serif;
 }
 
 p{
@@ -117,7 +118,7 @@ label, input{
 }
 
 label{
-    font-size: 14px;
+    font-size: 12px;
     margin-right: 1em;
 }
 
