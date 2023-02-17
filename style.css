@@ -152,3 +152,7 @@ button{
     margin-bottom: 2em;
     box-shadow: 0px 2px 3px rgb(211, 211, 211);
 }
+
+button:hover{
+    background-color: rgb(143, 193, 209);
+}
