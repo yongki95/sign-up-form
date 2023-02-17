@@ -156,3 +156,8 @@ button{
 button:hover{
     background-color: rgb(143, 193, 209);
 }
+
+#log_in{
+    color: rgb(5, 124, 163);
+    text-decoration: none;
+}
