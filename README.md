@@ -2,7 +2,7 @@
 
 ULR: https://yongki95.github.io/sign-up-form/
 
-
+<img src="./img/sign-up-form.png" alt="Sign up form picture">
 
 
 
