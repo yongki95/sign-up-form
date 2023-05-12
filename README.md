@@ -6,10 +6,13 @@ ULR: https://yongki95.github.io/sign-up-form/
 
 ### Used Skills
 
-1. HTML.
+1. HTML
 
-2. CSS.
-### Future work
+2. CSS
+### Description
+A simple input form that can do client-side validated.
+
+### Future Works
 
 1. Implemenet code that compare password input and confirm password input.
 
